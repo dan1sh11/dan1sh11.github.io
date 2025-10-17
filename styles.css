@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+html {
+  background-color: #0e2547;
+}
+body {
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0;
+  margin: 2%;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background-color: #277ea0;
+  color: #161515;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+}
+
+img {
+  display: block;
+  padding: 20px;
+  width: 25%;
+  float: left;
+}
+
+nav a{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(90deg, #8fdae4, #045858);
+  color:#161515;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 555;
+  letter-spacing: 0.7px; 
+}
+
+nav a:hover {
+  background: linear-gradient(90deg, #045858, #8fdae4);
+  color: #1b1919;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1b1919;
+}
+
+footer a:hover {
+  color:#2809d4
+}
+
+footer {
+  background-color: #277ea0;
+  color: #1b1919;
+  text-align: center;
+  padding: 1rem;
+  clear: both;
+  font-size: 0.9rem;
+}
+
+
+/* Mobile/Tablet only Styles */
+@media only screen and (max-width: 768px){
+  img {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+/* Desktop only styles */
+@media only screen and (min-width: 769px){
+  html {
+    background-image: url(images/pretty_sky.jpg);
+    background-size: 50%;
+  }
+}
